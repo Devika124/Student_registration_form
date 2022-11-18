@@ -1,0 +1,79 @@
+body{
+    background:url("https://tenneyschool.com/wp-content/uploads/2020/06/iStock-1163323464-768x512.jpg");
+    overflow-y: scroll;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+h1 {
+    font-family: Sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-decoration: underline
+}
+p{
+    text-align:center;
+    font-size: 25px;
+}
+
+.survey-form
+{
+  width: 60%;
+  margin: auto auto;
+}
+
+div
+{
+  background-color: rgba(244,244,194,0.45);
+  
+}
+fieldset
+{
+  border: 0;
+  padding: 20px 20px;
+  border-bottom: 2px solid pink;
+  margin: auto 20px;
+  width: 85%;
+}
+
+input,textarea
+{
+  display: block;
+  margin: 20px 0px;
+  width: 100%;
+  
+}
+.gen{
+  display: block;
+  margin: 20px 0px;
+  width: 100%;
+}
+
+input[type="radio"],input[type="checkbox"]
+{
+  width: unset;
+  display: unset;
+  margin: 0.75rem 0.5rem 1rem 1rem;  
+  
+}
+input[type=submit], input[type=reset]{
+    width: 15%;
+    padding: 8px 12px;
+    margin: auto auto;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+label
+{
+  font-family: sans-serif;
+  font-size: 15px; 
+  
+}
+span{
+  color: red;
+  font-style: bold;
+  display: block;
+  padding: auto auto;
+}
